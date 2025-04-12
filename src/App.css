@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 30px 15px;
+    padding: 30px 16px;
 }
 
 .header {
@@ -49,27 +49,36 @@
     margin-top: 30px;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
 }
 
 .rating__stars {
     display: flex;
+    gap: 2px;
 }
 
 .rating__text {
     font-size: 14px;
-    color: #70757a;
+    color: #5e5e5e;
 }
 
 .rating__new {
-    display: none;
+    font-size: 12px;
+    padding: 2px 8px;
+    line-height: 16px;
+    font-weight: 500;
+    /*letter-spacing: 0.1px;*/
+    background-color: rgb(222, 225, 227);
+    color: rgb(31, 31, 31);
+    border-radius: 9999px;
 }
 
 .review {
     margin: 20px 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
-    color: #1f1f1f;
+    color: #474747;
+    font-weight: 400;
 }
 
 .review__button {

@@ -49,15 +49,8 @@ function App() {
       <div className="rating">
           <div className="rating__stars">
               {[...Array(5)].map((_, index) => (
-                  <svg
-                      key={index}
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20px"
-                      viewBox="0 -960 960 960"
-                      width="20px"
-                      fill={index + 1 > stars ? '#e3e3e3' : '#fbbc04'}
-                  >
-                      <path d="m243-144 63-266L96-589l276-24 108-251 108 252 276 23-210 179 63 266-237-141-237 141Z" />
+                  <svg key={index} width="12" height="12" viewBox="0 0 12 12">
+                      <path d="M6 .6L2.6 11.1 11.4 4.7H.6L9.4 11.1Z" fill={index + 1 > stars ? '#e3e3e3' : '#fabb05'} stroke={index + 1 > stars ? '#e3e3e3' : '#fabb05'}></path>
                   </svg>
               ))}
           </div>

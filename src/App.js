@@ -67,14 +67,34 @@ function App() {
       <div className="review">{reviewText}</div>
 
         {isOpen && (<div className="edit">
+            <div className="edit__overlay" onClick={() => setIsOpen(false)}></div>
             <div className="edit__container">
-                <input type="text" value={name} onChange={changeName} />
-                <input type="text" value={reviewCount} onChange={(e) => setReviewCount(e.target.value)} />
-                <input type="number" value={stars} min="1" max="5" onChange={(e) => setStars(e.target.value)} />
-                <input type="text" value={time} onChange={(e) => setTime(e.target.value)} />
-                <textarea value={reviewText} onChange={(e) => setReviewText(e.target.value)}></textarea>
+                <label className="edit__label">
+                    Имя:
+                    <input className="edit__input" type="text" value={name} onChange={changeName} />
+                </label>
+
+                <label className="edit__label">
+                    Количество отзывов:
+                    <input className="edit__input" type="text" value={reviewCount} onChange={(e) => setReviewCount(e.target.value)} />
+                </label>
+
+                <label className="edit__label">
+                    Звезды:
+                    <input className="edit__input" type="number" value={stars} min="1" max="5" onChange={(e) => setStars(e.target.value)} />
+                </label>
+
+                <label className="edit__label">
+                    Время:
+                    <input className="edit__input" type="text" value={time} onChange={(e) => setTime(e.target.value)} />
+                </label>
+
+                <label className="edit__label">
+                    Отзыв:
+                    <textarea className="edit__textarea" value={reviewText} onChange={(e) => setReviewText(e.target.value)}></textarea>
+                </label>
+                <button className="review__button" onClick={handleSave}>Сохранить</button>
             </div>
-            <button className="review__button" onClick={handleSave}>Сохранить</button>
         </div>)}
     </div>
   );

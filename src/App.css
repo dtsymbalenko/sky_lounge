@@ -1,5 +1,5 @@
 .wrapper {
-    padding:  8px 16px;
+    padding:  16px 16px 30px;
     height: 100vh;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .review {
-    margin: 15px 0 20px;
+    margin: 10px 0 16px;
     font-size: 16px;
     line-height: 1.5;
     color: #474747;
@@ -154,5 +154,5 @@
     font-size: 12px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 4px;
 }

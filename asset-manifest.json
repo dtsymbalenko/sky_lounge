@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/sky_lounge/static/css/main.52b90931.css",
-    "main.js": "/sky_lounge/static/js/main.d9fe7a3c.js",
+    "main.css": "/sky_lounge/static/css/main.37d94550.css",
+    "main.js": "/sky_lounge/static/js/main.764a29bd.js",
     "index.html": "/sky_lounge/index.html",
-    "static/media/more.svg": "/sky_lounge/static/media/more.8a3615f459d544dd59aa4900ca4f5337.svg",
-    "main.52b90931.css.map": "/sky_lounge/static/css/main.52b90931.css.map",
-    "main.d9fe7a3c.js.map": "/sky_lounge/static/js/main.d9fe7a3c.js.map"
+    "main.37d94550.css.map": "/sky_lounge/static/css/main.37d94550.css.map",
+    "main.764a29bd.js.map": "/sky_lounge/static/js/main.764a29bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.52b90931.css",
-    "static/js/main.d9fe7a3c.js"
+    "static/css/main.37d94550.css",
+    "static/js/main.764a29bd.js"
   ]
 }

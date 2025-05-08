@@ -83,7 +83,7 @@ function App() {
                 </label>
 
                 <label className="edit__label">
-                    Время:
+                    Время :
                     <input className="edit__input" type="text" value={time} onChange={(e) => setTime(e.target.value)} />
                 </label>
 

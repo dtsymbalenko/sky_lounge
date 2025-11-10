@@ -156,3 +156,9 @@
     align-items: center;
     gap: 4px;
 }
+
+.translate {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #1a0dab;
+}
